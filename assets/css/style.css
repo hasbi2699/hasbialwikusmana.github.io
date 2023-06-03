@@ -206,7 +206,7 @@ footer span {
     width: 100%;
   }
   .container .banner-1 img {
-    height: 400px;
+    height: 360px;
     margin-top: 20px;
   }
 
@@ -226,12 +226,12 @@ footer span {
   .button-web img {
     margin-top: 20px;
     width: 100%;
-    height: 65px;
+    height: 50px;
     object-fit: cover;
   }
   .button-order img {
     width: 100%;
-    height: 100%;
+    height: 45px;
     object-fit: cover;
     margin-top: -15px;
   }
@@ -243,22 +243,21 @@ footer span {
 
   .button-reseller img {
     width: 100%;
-    height: 65px;
+    height: 50px;
     object-fit: cover;
   }
   .video iframe {
     width: 451px;
-    height: 254px;
+    height: 230px;
   }
   .kelebihan img {
     width: 95%;
     height: 100%;
     object-fit: cover;
-    margin-top: -25px;
   }
   .beritahu-kami img {
     width: 100%;
-    height: 100px;
+    height: 80px;
     object-fit: cover;
     margin-top: -25px;
   }
