@@ -1,0 +1,236 @@
+/* Fonts Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/*  Sembunyikan Scrollbar  */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  overflow-y: smooth;
+}
+
+a img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .banner-1 img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.button-web {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-web img {
+  margin-top:-300px;
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.button-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-order img {
+  width: 100%;
+  height: 100px;
+  object-fit: cover;
+}
+
+.banner-join {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.banner-join img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+.button-reseller {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-reseller img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.video iframe {
+  width: 826px;
+  height: 515px;
+}
+
+.kelebihan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.kelebihan img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.beritahu-kami {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.beritahu-kami img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.banner-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.banner-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grow-scale {
+  animation-name: grow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -moz-animation-name: grow;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+}
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #ecc349;
+}
+
+footer span {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Media query */
+@media screen and (max-width: 768px) {
+  .banner-1 img {
+    width: 100%;
+    height: 100%;
+    margin-top: 50px;
+  }
+  .button-web img {
+    margin-top:-3000px;
+    width: 100%;
+    height: 65px;
+    object-fit: cover;
+  }
+  .button-order img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: -15px;
+  }
+  .banner-join img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+  }
+
+  .button-reseller img {
+    width: 100%;
+    height: 65px;
+    object-fit: cover;
+  }
+  .video iframe {
+    width: 451px;
+    height: 254px;
+  }
+  .kelebihan img {
+    width: 95%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: -25px;
+  }
+  .beritahu-kami img {
+    width: 100%;
+    height: 70px;
+    object-fit: cover;
+    margin-top: -25px;
+  }
+  .banner-2 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: -25px;
+  }
+}
