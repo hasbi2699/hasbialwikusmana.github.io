@@ -1,0 +1,277 @@
+/* Fonts Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/*  Sembunyikan Scrollbar  */
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  overflow-x: hidden;
+  overflow-y: smooth;
+}
+
+a img:hover {
+  transform: scale(1.05);
+  transition: all 0.3s;
+}
+
+section.reseller,
+section.collaboration {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/bg\ banner1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container .banner-1 img {
+  height: 826px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.order img {
+  margin-top: 20px;
+  width: 60%;
+  height: -200%;
+  object-fit: cover;
+  margin-right: -65px;
+}
+
+.button-web {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-web img {
+  margin-top: 40px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.button-order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-order-collab {
+  display: flex;
+  justify-content: center;
+}
+
+.button-order-collab img {
+  width: 100%;
+  height: 180px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: 20%;
+  left: -40%;
+}
+
+section.collaboration {
+  background: url("../img/aset\ moru-05.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+}
+
+.button-order img {
+  width: 100%;
+  height: 322px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.button-order img.patnership {
+  width: 100%;
+  height: auto;
+}
+
+.button-sosmed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-sosmed img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.kelebihan {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  background-image: url("../img/bg\ banner3.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.kelebihan img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grow-scale {
+  animation-name: grow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  -moz-animation-name: grow;
+  -moz-animation-duration: 2s;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+}
+@keyframes grow {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  background-color: #a0946e;
+}
+
+footer span {
+  font-size: 1rem;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+/* Media query */
+@media screen and (max-width: 768px) {
+  .container .banner-1 img {
+    height: 360px;
+    margin-top: 20px;
+  }
+
+  .container .banner-1 {
+    background-image: url("../img/bg\ banner1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  .order img {
+    margin-top: 5px;
+    width: 100%;
+    margin-right: 2px;
+  }
+
+  .button-web img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .button-order img {
+    width: 100%;
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .button-order img.patnership {
+    width: 100%;
+    height: 290px;
+  }
+
+  .button-order-collab {
+    display: flex;
+    justify-content: center;
+  }
+
+  .button-order-collab img {
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 25%;
+    left: -40%;
+  }
+
+  section.collaboration {
+    background: url("../img/aset\ moru-05.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    height: 220px;
+    width: 100%;
+  }
+
+  .button-sosmed img {
+    width: 100%;
+    height: 100px;
+  }
+
+  .kelebihan img {
+    margin-top: -30px;
+    width: 130%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .kelebihan {
+    background-image: url("../img/bg\ banner3.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  footer span {
+    font-size: 0.7rem;
+    color: #ffffff;
+    font-weight: 600;
+  }
+}
